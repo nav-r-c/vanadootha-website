@@ -1,4 +1,8 @@
+import Navbar from "./Navbar";
 import "./globals.css";
+import { DM_Sans } from "next/font/google" 
+
+const dmsans = DM_Sans({subsets : ['latin']})
 
 export default function RootLayout({
   children,
@@ -7,7 +11,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={dmsans.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
