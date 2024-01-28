@@ -12,7 +12,7 @@ interface Proptypes {
 function AnimalCard(props : Proptypes) {
     return (
         <div>
-            <Image src = {props.ImageUrl} alt = "Animal" width={200} height={200} className='rounded-2xl shadow-2xl' />
+            <Image src = {props.ImageUrl} alt = "Animal" width={200} height={200} className='rounded-2xl shadow-lg' />
             <h1 className='font-medium text-center text-xl my-5'>{props.heading}</h1>
         </div>
     )

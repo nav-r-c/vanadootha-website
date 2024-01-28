@@ -11,7 +11,7 @@ function Animals() {
         <>
         <div className='my-10'>
             <h1 className='font-bold text-accent-3 text-center text-3xl mb-10'>The Animals Targeted By Vanadootha</h1>
-            <div className='flex justify-evenly'>
+            <div className='flex justify-between'>
                 <AnimalCard ImageUrl={ElephantImage} heading='Elephant' />
                 <AnimalCard ImageUrl={WildBoarImage} heading='Wild Boar' />
                 <AnimalCard ImageUrl={WildBisonImage} heading='Wild Bison' />
