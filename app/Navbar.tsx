@@ -19,8 +19,8 @@ export default function Navbar() {
                 </div>
                 <div className='flex gap-10'>
                     <Link href = '/' className={`font-medium py-2 ${currentPathname === '/' ? 'border-b-4 border-accent' : ''}`}>HOME</Link>
-                    <Link href = '/' className={`font-medium py-2 ${currentPathname === '/about' ? 'border-b-4 border-accent' : ''}`}>ABOUT US</Link>
-                    <Link href = '/' className={`font-medium py-2 ${currentPathname === '/contact' ? 'border-b-4 border-accent' : ''}`}>CONTACT US</Link>
+                    <Link href = '/about' className={`font-medium py-2 ${currentPathname === '/about' ? 'border-b-4 border-accent' : ''}`}>ABOUT US</Link>
+                    <Link href = '/contact' className={`font-medium py-2 ${currentPathname === '/contact' ? 'border-b-4 border-accent' : ''}`}>CONTACT US</Link>
                 </div>
             </nav>
         </>

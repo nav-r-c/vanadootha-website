@@ -9,7 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       colors : {
-        'accent' : '#2A7F5B'
+        'accent' : '#2A7F5B',
+        'accent-2' : '#A4E395',
+        'secondary' : '#251523',
+        'secondary-2' : '#D1CECE'
+      },
+      fontFamily: {
+        'satoshi-variable': ['Satoshi-Variable', 'sans-serif'],
+        'satoshi-variable-italic': ['Satoshi-VariableItalic', 'sans-serif'],
+        'satoshi-light': ['Satoshi-Light', 'sans-serif'],
+        'satoshi-light-italic': ['Satoshi-LightItalic', 'sans-serif'],
+        'satoshi-regular': ['Satoshi-Regular', 'sans-serif'],
+        'satoshi-italic': ['Satoshi-Italic', 'sans-serif'],
+        'satoshi-medium': ['Satoshi-Medium', 'sans-serif'],
+        'satoshi-medium-italic': ['Satoshi-MediumItalic', 'sans-serif'],
+        'satoshi-bold': ['Satoshi-Bold', 'sans-serif'],
+        'satoshi-bold-italic': ['Satoshi-BoldItalic', 'sans-serif'],
+        'satoshi-black': ['Satoshi-Black', 'sans-serif'],
+        'satoshi-black-italic': ['Satoshi-BlackItalic', 'sans-serif'],
       }
     },
   },
