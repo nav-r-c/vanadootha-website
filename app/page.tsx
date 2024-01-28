@@ -1,11 +1,17 @@
 import React from 'react'
 import Banner from './Banner'
+import Animals from './Animals'
 
 function page() {
 	return (
 		<>
 			<div>
-				<Banner />
+				<div>
+					<Banner />
+				</div>
+				<div>
+					<Animals />
+				</div>
 			</div>
 		</>
 	)
