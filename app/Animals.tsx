@@ -9,7 +9,7 @@ import AntelopeImage from "@/public/landing_page/antelope.png"
 function Animals() {
     return (
         <>
-        <div className='my-10'>
+        <div className='my-20'>
             <h1 className='font-bold text-accent-3 text-center text-3xl mb-10'>The Animals Targeted By Vanadootha</h1>
             <div className='flex justify-between'>
                 <AnimalCard ImageUrl={ElephantImage} heading='Elephant' />

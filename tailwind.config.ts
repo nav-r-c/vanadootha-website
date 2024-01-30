@@ -12,8 +12,10 @@ const config: Config = {
         'accent' : '#2A7F5B',
         'accent-2' : '#A4E395',
         'accent-3' : '#0D422F',
+        'accent-4' : '#065B33',
         'secondary' : '#251523',
-        'secondary-2' : '#D1CECE'
+        'secondary-2' : '#D1CECE',
+        'secondary-3' : '#373F41'
       },
       fontFamily: {
         'satoshi-variable': ['Satoshi-Variable', 'sans-serif'],

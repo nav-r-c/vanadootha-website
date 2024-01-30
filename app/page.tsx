@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from './Banner'
 import Animals from './Animals'
 import Conflict from './Conflict'
+import Stats from './Stats'
 
 function page() {
 	return (
@@ -12,6 +13,7 @@ function page() {
 					<Animals />
 					<div>
 						<Conflict />
+						<Stats />
 					</div>
 				</div>
 			</div>
