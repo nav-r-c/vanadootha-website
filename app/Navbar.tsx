@@ -14,9 +14,9 @@ export default function Navbar() {
     return (
         <>
             <nav className='flex justify-between items-center py-2 px-20 bg-white shadow-sm'>
-                <div>
+                <Link href = "/">
                     <Image src = {Logo} width={55} height={55} alt = "Vanadootha Logo" />
-                </div>
+                </Link>
                 <div className='flex gap-10'>
                     <Link href = '/' className={`font-medium py-2 ${currentPathname === '/' ? 'border-b-4 border-accent' : 'transition-all ease-in-out hover:scale-110'}`}>HOME</Link>
                     <Link href = '/about' className={`font-medium py-2 ${currentPathname === '/about' ? 'border-b-4 border-accent' : 'transition-all ease-in-out hover:scale-110'}`}>ABOUT US</Link>

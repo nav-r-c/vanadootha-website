@@ -1,11 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 
-import { Figtree } from 'next/font/google'
-
 import Logo from "@/public/logo.png"
 
-
+import { Figtree } from 'next/font/google'
 const figtree = Figtree({subsets: ['latin']})
 
 function AboutUsHome() {

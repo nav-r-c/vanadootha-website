@@ -4,6 +4,7 @@ import Animals from './Animals'
 import Conflict from './Conflict'
 import Stats from './Stats'
 import AboutUsHome from './AboutUsHome'
+import Features from './Features'
 
 function page() {
 	return (
@@ -18,6 +19,9 @@ function page() {
 					</div>
 				</div>
 				<AboutUsHome />
+				<div className='w-[80%] mx-auto'>
+					<Features />
+				</div>
 			</div>
 		</>
 	)
