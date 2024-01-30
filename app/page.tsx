@@ -3,6 +3,7 @@ import Banner from './Banner'
 import Animals from './Animals'
 import Conflict from './Conflict'
 import Stats from './Stats'
+import AboutUsHome from './AboutUsHome'
 
 function page() {
 	return (
@@ -16,6 +17,7 @@ function page() {
 						<Stats />
 					</div>
 				</div>
+				<AboutUsHome />
 			</div>
 		</>
 	)
