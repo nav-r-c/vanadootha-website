@@ -9,7 +9,7 @@ interface PropTypes {
 export default function StatCard(props : PropTypes) {
     return (
         <>
-        <div className="bg-white p-5 shadow-lg rounded-md">
+        <div className="bg-white p-5 shadow-lg rounded-md w-[500px]">
             <div className="rounded-full border-2 bg-accent-1 w-[150px] h-[150px] mx-auto flex flex-col items-center justify-center">
                 <h1 className="font-bold text-white text-3xl">{`${props.stat} ${props.suffixStat? props.suffixStat : ''}`}</h1>
             </div>  

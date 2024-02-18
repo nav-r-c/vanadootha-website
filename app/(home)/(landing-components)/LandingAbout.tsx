@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import YouTubePlaceholder from "@/public/landing-page/VideoPlaceholder.png"
+// import YouTubePlaceholder from "@/public/landing-page/VideoPlaceholder.png"
+import LogoReveal from "@/public/landing-page/logo-reveal.gif"
 import { Figtree } from 'next/font/google'
 
 const figtree = Figtree({subsets: ['latin']})
@@ -16,7 +17,7 @@ function LandingAbout() {
                         <p className={`${figtree.className} text-secondary-4 text-lg my-2 text-left`}>“Vanadootha” translates to, “Messenger of the Forest” in the ancient Sanskrit language. All products developed by Vanadootha, will act as a bridge between the wilderness and humanity. It will avoid all the conflicts and clashes between the two sides and will ensure that peace and co-existence thrives, avoiding Eco-Apartheid, leading to an eternal friendship between human beings and the wild.</p>
                     </div>
                     <div>
-                        <Image src = {YouTubePlaceholder} width={500} height={500} alt = "Vanadootha Video Placeholder" />
+                        <Image src = {LogoReveal} width={500} height={500} alt = "Vanadootha Video Placeholder" className='rounded-md' />
                     </div>
                 </div>
             </div>

@@ -7,11 +7,11 @@ export default function Stats() {
         <div className="my-10 text-center bg-primary-3 p-20">
             <div className="w-[80%] mx-auto">
                 <h1 className="font-bold text-2xl text-accent-4 my-5">Statistics of Human - Animal conflicts</h1>
-                <div className="flex justify-between gap-5 my-5">
-                    <StatCard />
-                    <StatCard />
-                    <StatCard />
-                    <StatCard />
+                <div className="flex justify-between gap-5 my-10">
+                    <StatCard stat={5543} desc=" Acres of land area damaged by wild animals in Andhra Pradesh" />
+                    <StatCard stat = {30000} desc = "Cases of human wildlife conflict in the years, 2021 - 22" />
+                    <StatCard stat = {4000} suffixStat="Cr" desc = "Total loss for farmers across India "/>
+                    <StatCard stat = {40} suffixStat="%" desc = "Crop loss by wild animals across India" />
                 </div>
             </div>
         </div>
