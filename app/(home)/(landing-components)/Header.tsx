@@ -6,13 +6,13 @@ import Link from "next/link";
 
 import { motion } from "framer-motion"
 
-import HeaderImage from "@/public/landing-page/landing-header.jpeg"
+import HeaderImage from "@/public/landing-page/landing-header.png"
 
 export default function Header() {
     return (
         <>
         <div className="relative">
-            <div className="bg-[#000000B3] h-screen w-[45%] absolute text-white h-screen flex flex-col justify-center items-center">
+            <div className="h-screen w-[45%] absolute text-white h-screen flex flex-col justify-center items-center">
                 <motion.div 
                     className="w-[70%]"
                     initial = {{ opacity : 0, x : -5 }}
