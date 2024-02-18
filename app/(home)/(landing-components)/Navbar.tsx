@@ -20,7 +20,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex gap-10 justify-center items-center text-sm">
                     <Link href = '/' className={path === '/' ? `font-medium py-2 border-b-4 border-accent-1` : 'font-medium py-2 hover-underline-animation'}>Home</Link>
-                    <Link href = '/about' className={path === '/about' ? `font-medium py-2 border-b-4 border-accent-1` : 'font-medium py-2 hover-underline-animation'}>About Us</Link>
+                    <Link href = '#product' className={path === '#product' ? `font-medium py-2 border-b-4 border-accent-1` : 'font-medium py-2 hover-underline-animation'}>Product</Link>
                     <Link href = '#contact-us' className={path === '#contact-us' ? `font-medium py-2 border-b-4 border-accent-1` : 'font-medium py-2 hover-underline-animation'}>Contact Us</Link>
                 </div>
             </nav>
