@@ -4,6 +4,7 @@ import Conflict from "./(landing-components)/ConflictComponent";
 import Stats from "./(landing-components)/Statistics";
 import { Metadata } from "next";
 import LandingAbout from "./(landing-components)/LandingAbout";
+import CoreBeliefs from "./(landing-components)/CoreBeliefs";
 
 export const metadata : Metadata = {
     title : "Vanadootha"
@@ -19,6 +20,7 @@ export default function Page() {
                     <Conflict />
                     <Stats />
                     <LandingAbout />
+                    <CoreBeliefs />
                 </div> 
             </div>
         </>
