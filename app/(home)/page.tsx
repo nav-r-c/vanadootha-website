@@ -7,6 +7,7 @@ import LandingAbout from "./(landing-components)/LandingAbout";
 import CoreBeliefs from "./(landing-components)/CoreBeliefs";
 import Product from "./(landing-components)/Product";
 import Features from "./(landing-components)/Features";
+import AnimalSection from "./(landing-components)/AnimalSection";
 
 export const metadata : Metadata = {
     title : "Vanadootha"
@@ -27,6 +28,7 @@ export default function Page() {
                         <Product />
                     </div>
                     <Features />
+                    <AnimalSection />
                 </div> 
             </div>
         </>
