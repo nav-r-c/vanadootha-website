@@ -6,6 +6,7 @@ import { Metadata } from "next";
 import LandingAbout from "./(landing-components)/LandingAbout";
 import CoreBeliefs from "./(landing-components)/CoreBeliefs";
 import Product from "./(landing-components)/Product";
+import Features from "./(landing-components)/Features";
 
 export const metadata : Metadata = {
     title : "Vanadootha"
@@ -25,6 +26,7 @@ export default function Page() {
                     <div id = "product">
                         <Product />
                     </div>
+                    <Features />
                 </div> 
             </div>
         </>
