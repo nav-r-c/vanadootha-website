@@ -19,7 +19,10 @@ const config: Config = {
         'secondary-2' : '#D1D1D1',
         'secondary-3' : '#262626',
         'secondary-4' : '#5E5E5E',
-        'secondary-5' : '#0E0E0E'
+        'secondary-5' : '#0E0E0E',
+        'input-box' :'#69696982',
+        'input-text' : '#949494',
+        'footer-text' : '#C9C9C9'
       }
     }
   },
