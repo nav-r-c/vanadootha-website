@@ -2,6 +2,12 @@ import React from "react";
 import Header from "./(landing-components)/Header";
 import Conflict from "./(landing-components)/ConflictComponent";
 import Stats from "./(landing-components)/Statistics";
+import { Metadata } from "next";
+import LandingAbout from "./(landing-components)/LandingAbout";
+
+export const metadata : Metadata = {
+    title : "Vanadootha"
+}
 
 export default function Page() {
     return (
@@ -12,7 +18,8 @@ export default function Page() {
                 <div>
                     <Conflict />
                     <Stats />
-                </div>  
+                    <LandingAbout />
+                </div> 
             </div>
         </>
     )
