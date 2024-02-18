@@ -9,6 +9,7 @@ import Product from "./(landing-components)/Product";
 import Features from "./(landing-components)/Features";
 import AnimalSection from "./(landing-components)/AnimalSection";
 import VideoSection from "./(landing-components)/VideoSection";
+import Sponsors from "./(landing-components)/Sponsors";
 
 export const metadata : Metadata = {
     title : "Vanadootha | The smarter way to defend your farmland"
@@ -31,6 +32,7 @@ export default function Page() {
                     <Features />
                     <AnimalSection />
                     <VideoSection />
+                    <Sponsors />
                 </div> 
             </div>
         </>
