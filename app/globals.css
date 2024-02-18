@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -23,4 +27,14 @@
 .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #FCFCFC
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2A7F5B;
+    border-radius: 1%;
 }
