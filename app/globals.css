@@ -24,3 +24,13 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #FCFCFC
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2A7F5B;
+    border-radius: 1%;
+}
