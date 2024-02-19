@@ -9,10 +9,10 @@ import Spark from "@/public/landing-page/core-4.png"
 function CoreBeliefs() {
     return (
         <>
-        <div className='p-20 bg-primary-3 text-center'>
+        <div className='md:p-20 p-5 bg-primary-3 text-center'>
             <div className='w-[80%] mx-auto'>
-                <h1 className="font-bold text-2xl text-accent-4 my-5">Our Core Beliefs</h1>
-                <div className='grid grid-cols-4 my-10'>
+                <h1 className="font-bold text-xl md:text-2xl text-accent-4 my-5">Our Core Beliefs</h1>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 my-10'>
                     <CoreCard image={Mission} heading='Mission' desc='To prevent fatalities occurring due to the human - animal conflicts across India due to the wild animal invasions, by developing tangible, artificially intelligent solutions.' />
                     <CoreCard image={Vision} heading='Vision' desc='To make the world a safe, healthy and a coexisting habitat for both humans and animals; creating harmony in nature.' />
                     <CoreCard image={Values} heading='Values' desc='Curiosity, Sustainability, Innovation, Responsibility, Creativity' />

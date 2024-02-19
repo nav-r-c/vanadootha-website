@@ -15,7 +15,7 @@ interface PropTypes {
 function FeatureCard(props : PropTypes) {
     return (
         <>
-        <div className='p-10 bg-white rounded-md shadow-lg flex flex-col justify-start items-center'>
+        <div className='p-5 lg:p-10 bg-white rounded-md shadow-lg flex flex-col justify-start items-center'>
             <div>
                 <Image src = {props.image} width={50} height={50} alt = "Feature" className='my-5' />
             </div>
