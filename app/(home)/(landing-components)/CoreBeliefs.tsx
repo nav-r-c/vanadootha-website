@@ -9,7 +9,7 @@ import Spark from "@/public/landing-page/core-4.png"
 function CoreBeliefs() {
     return (
         <>
-        <div className='md:p-20 p-5 bg-primary-3 text-center'>
+        <div className='md:p-20 p-5 md:p-10 lg:p-20 bg-primary-3 text-center'>
             <div className='w-[80%] mx-auto'>
                 <h1 className="font-bold text-xl md:text-2xl text-accent-4 my-5">Our Core Beliefs</h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 my-10'>
