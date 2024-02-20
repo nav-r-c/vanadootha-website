@@ -41,9 +41,6 @@ function Footer() {
                                         <Image src = {LinkedIn} width={30} height={30} alt = "Social Icon" />
                                     </Link>
                                     <Link href = "/">
-                                        <Image src = {Facebook} width={30} height={30} alt = "Social Icon" />
-                                    </Link>
-                                    <Link href = "/">
                                         <Image src = {Youtube} width={30} height={30} alt = "Social Icon" />
                                     </Link>
                                 </div>
