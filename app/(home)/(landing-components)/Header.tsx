@@ -14,7 +14,7 @@ export default function Header() {
     return (
         <>
         <div className="relative">
-            <div className="h-screen lg:w-[45%] absolute text-white h-screen flex flex-col justify-center items-center text-center lg:text-left">
+            <div className="h-screen lg:w-[45%] absolute text-white h-screen flex flex-col justify-start pt-20 items-center text-center lg:text-left">
                 <motion.div 
                     className="w-[70%]"
                     initial = {{ opacity : 0, x : -5 }}
@@ -27,9 +27,9 @@ export default function Header() {
                 </motion.div>
             </div>
             <div>
-                <Image src = {HeaderImage} alt = "Product out in the open" width={2000} height={200} className="hidden lg:block w-[100%] h-screen" />
-                <Image src = {HeaderImageMD} alt = "Product out in the open" width={2000} height={200} className="hidden md:block lg:hidden w-[100%] h-screen" />
-                <Image src = {HeaderImageSM} alt = "Product out in the open" width={2000} height={200} className="block md:hidden w-[100%] h-screen" />
+                <Image src = {HeaderImage} alt = "Product out in the open" width={2000} height={200} className="hidden lg:block w-[100%]" />
+                <Image src = {HeaderImageMD} alt = "Product out in the open" width={2000} height={200} className="hidden md:block lg:hidden w-[100%]" />
+                <Image src = {HeaderImageSM} alt = "Product out in the open" width={2000} height={200} className="block md:hidden w-[100%]" />
             </div>
         </div>
         </>
