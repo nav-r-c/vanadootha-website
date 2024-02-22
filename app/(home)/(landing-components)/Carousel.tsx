@@ -43,7 +43,6 @@ export default function Carousel() {
                 nextEl : ".swiper-next-el",
                 prevEl : '.swiper-prev-el'
             }}
-            pagination
             autoplay={true}
             loop = {true}
             onSwiper={(swiper) => console.log(swiper)}
