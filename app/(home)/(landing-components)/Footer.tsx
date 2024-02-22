@@ -34,13 +34,13 @@ function Footer() {
                             <div className='my-5'>
                                 <p className='text-white'>Follow Us</p>
                                 <div className='flex justify-center md:justify-start gap-2 my-2'>
-                                    <Link href = "/">
-                                        <Image src = {Facebook} width={30} height={30} alt = "Social Icon" />
+                                    <Link href = "https://www.instagram.com/vanadootha?igsh=MW16MDZtZDFubWJiZA==">
+                                        <Image src = {Instagram} width={30} height={30} alt = "Social Icon" />
                                     </Link>
-                                    <Link href = "/">
+                                    <Link href = "https://www.linkedin.com/in/vanadootha-your-messenger-of-the-forest-956995258">
                                         <Image src = {LinkedIn} width={30} height={30} alt = "Social Icon" />
                                     </Link>
-                                    <Link href = "/">
+                                    <Link href = "https://youtube.com/@vanadootha?si=zIVFDeln7aOIeF_0">
                                         <Image src = {Youtube} width={30} height={30} alt = "Social Icon" />
                                     </Link>
                                 </div>
