@@ -35,7 +35,7 @@ export default async function handler(req : NextApiRequest, res : NextApiRespons
 
         const response = await sheets.spreadsheets.values.append({
             spreadsheetId : process.env.SHEETS_ID,
-            range : "A1:C1",
+            range : "A1:D1",
             valueInputOption : "USER_ENTERED",
             requestBody : {
                 values : [
