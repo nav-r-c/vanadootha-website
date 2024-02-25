@@ -23,7 +23,7 @@ function AnimalCard(props : PropTypes) {
         >
             <Image src = {props.image} width={500} height={250} alt = "Animal" className='rounded-md shadow-lg' />
             {/* <Image src = {props.image} width={150} height={150} alt = "Animal" className='blokc md:hidden rounded-md shadow-lg' /> */}
-            <h1 className='my-2 text-lg text-accent-4 font-bold'>{props.caption}</h1>
+            <h2 className='my-2 text-lg text-accent-4 font-bold'>{props.caption}</h2>
         </motion.div>
         </>
     )

@@ -15,7 +15,7 @@ function VideoSection() {
                 whileInView={{opacity : 1}}
                 viewport={{ once : true, margin : "-40px" }}
             >
-                <h1 className="font-bold text-lg md:text-2xl text-accent-4 mb-5">Our Journey</h1>
+                <h2 className="font-bold text-lg md:text-2xl text-accent-4 mb-5">Our Journey</h2>
                 <Video />
             </motion.div>
         </div>

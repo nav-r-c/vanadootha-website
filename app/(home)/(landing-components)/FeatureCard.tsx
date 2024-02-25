@@ -29,7 +29,7 @@ function FeatureCard(props : PropTypes) {
                 <Image src = {props.image} width={50} height={50} alt = "Feature" className='my-5' />
             </div>
             <div>
-                <h1 className='text-accent-4 font-bold text-lg my-2'>{props.heading}</h1>
+                <h2 className='text-accent-4 font-bold text-lg my-2'>{props.heading}</h2>
                 <p className={`text-[0.75em] text-secondary-5 ${inter.className}`}>{props.desc}</p>
             </div>
         </motion.div>

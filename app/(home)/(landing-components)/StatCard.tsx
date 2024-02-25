@@ -42,7 +42,7 @@ export default function StatCard(props : PropTypes) {
             viewport={{ once : true, margin : "-20px" }}
         >
             <div className="rounded-full border-2 bg-accent-1 w-[100px] md:w-[150px] h-[100px] md:h-[150px] mx-auto flex flex-col items-center justify-center">
-                <h1 ref = {statRef} className="font-bold text-white text-xl md:text-3xl">{`${stat} ${props.suffixStat? props.suffixStat : ''}`}</h1>
+                <h3 ref = {statRef} className="font-bold text-white text-xl md:text-3xl">{`${stat} ${props.suffixStat? props.suffixStat : ''}`}</h3>
             </div>  
             <p className="text-secondary-3 font-medium text-sm my-2 opacity-50">{props.desc}</p>
         </motion.div>

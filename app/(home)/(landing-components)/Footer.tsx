@@ -16,7 +16,7 @@ function Footer() {
                 <div className='flex lg:flex-row flex-col justify-between gap-10 items-center'>
                     <div id = "contact-us" className='lg:w-[40%]'>
                         <form>
-                            <h1 className='font-bold text-2xl my-5'>Contact Us</h1>
+                            <h2 className='font-bold text-2xl my-5'>Contact Us</h2>
                             <input placeholder='Your Name' type = "text" className='bg-input-box rounded-md w-[100%] my-2 outline-none p-2 placeholder-input-text border-2 border-input-text' />
                             <input placeholder='Phone Number' type = "text" className='bg-input-box rounded-md w-[100%] my-2 outline-none p-2 placeholder-input-text border-2 border-input-text' />
                             <input placeholder='Your Message' type = "text" className='bg-input-box rounded-md w-[100%] my-2 outline-none p-2 placeholder-input-text border-2 border-input-text' />
@@ -27,9 +27,12 @@ function Footer() {
                     <div className='flex md:flex-row flex-col justify-between lg:justify-center gap-5 items-center lg:w-[60%]'>
                         <div>
                             <div className='text-sm md:text-md lg:text-lg'>
-                                <h1 className='text-white'>Vanadootha Pvt Ltd</h1>
-                                <p className='text-footer-text my-2'>#3, Jyothi Nivasa, St.Michel&apos;s school road Gangammagudi layout, Jalahalli, Bengaluru, Karnataka - 560013.</p>
-                                <p className='text-footer-text my-2'>Ph: +91-8310534603</p>
+                                <section>
+                                    <h2 className='text-white'>Vanadootha Pvt Ltd</h2>
+                                    <p className='text-footer-text my-2'>#3, Jyothi Nivasa, St.Michel&apos;s school road Gangammagudi layout, Jalahalli, Bengaluru, Karnataka - 560013.</p>
+                                    <p className='text-footer-text my-2'>Ph: +91-8310534603</p>
+                                </section>
+
                             </div>
                             <div className='my-5'>
                                 <p className='text-white'>Follow Us</p>

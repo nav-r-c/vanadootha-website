@@ -14,7 +14,7 @@ function Sponsors() {
         <>
         <div className='p-5 md:p-10 lg:p-20 bg-white text-center'>
             <div className='w-[80%] mx-auto'>
-                <h1 className="font-bold text-lg lg:text-2xl text-accent-4 my-5">Supported By</h1>
+                <h2 className="font-bold text-lg lg:text-2xl text-accent-4 my-5">Supported By</h2>
                 <div className='flex flex-row justify-center items-center gap-5 my-5'>
                     <motion.div
                         initial = {{opacity : 0, x : -30}}
