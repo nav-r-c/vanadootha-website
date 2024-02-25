@@ -15,7 +15,8 @@ import Head from "next/head";
 
 export const metadata : Metadata = {
     title : "Vanadootha | The smarter way to defend your farmland",
-    description : "“Vanadootha” translates to, “Messenger of the Forest” in the ancient Sanskrit language. All products developed by Vanadootha, will act as a bridge between the wilderness and humanity. It will avoid all the conflicts and clashes between the two sides and will ensure that peace and co-existence thrives, avoiding Eco-Apartheid, leading to an eternal friendship between human beings and the wild. The smarter way to defend your farmland. With our smart & autonomous product, you don't have to worry about guarding your fields all night!"
+    description : "“Vanadootha” translates to, “Messenger of the Forest” in the ancient Sanskrit language. All products developed by Vanadootha, will act as a bridge between the wilderness and humanity. It will avoid all the conflicts and clashes between the two sides and will ensure that peace and co-existence thrives, avoiding Eco-Apartheid, leading to an eternal friendship between human beings and the wild. The smarter way to defend your farmland. With our smart & autonomous product, you don't have to worry about guarding your fields all night!",
+    metadataBase : new URL("https://www.vanadootha.com")
 }
 
 export default function Page() {
