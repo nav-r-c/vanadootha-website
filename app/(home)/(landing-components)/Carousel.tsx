@@ -67,10 +67,10 @@ export default function Carousel() {
         </Swiper>
         <div>
             <button className="swiper-prev-el m-5">
-                <CiCircleChevLeft className = "text-accent-1 text-5xl" />
+                <CiCircleChevLeft className = "text-accent-1 text-5xl transition-all ease-in-out lg:hover:scale-110" />
             </button>
             <button className="swiper-next-el m-5">
-                <CiCircleChevRight className = "text-accent-1 text-5xl" />
+                <CiCircleChevRight className = "text-accent-1 text-5xl transition-all ease-in-out lg:hover:scale-110" />
             </button>
         </div>
         </>
