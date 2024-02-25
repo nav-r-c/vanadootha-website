@@ -45,7 +45,7 @@ function ProductPreview(): JSX.Element {
                     <p className='hidden lg:block my-5 text-sm lg:text-md'>Introducing Kshavi, a revolutionary solution in the realm of wildlife management. Harnessing the power of IoT technology, Kshavi is meticulously designed to safeguard human-inhabited areas from the intrusion of herbivore wild animals. </p>
                     <p className='hidden lg:block my-10 text-sm lg:text-md'>Through cutting-edge cameras and sophisticated algorithms, Kshavi detects, tracks, and effectively deters wildlife using a combination of ultrasonic and infrasonic frequencies, coupled with strategic flashlight deployment. With Kshavi, Vanadootha pioneers a new era of coexistence, where humans and wildlife thrive harmoniously, ensuring peace of mind for communities while preserving the natural world.</p>
                     <div className='flex justify-center lg:justify-start items-center gap-5'>
-                        <Link href = "#contact-us" className='hidden lg:block bg-white text-black px-5 py-2 font-bold rounded-full'>Contact Us</Link>
+                        <Link href = "#contact-us" className='text-md hidden lg:block bg-white text-black px-5 py-2 font-bold rounded-full'>Contact Us</Link>
                         <button onClick={handleReadMoreClick} className='lg:hidden font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110'>Read More</button>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ function ProductPreview(): JSX.Element {
                         <h2 className="font-bold text-xl mb-4">{"Meet farmer’s First line of Defense"}</h2>
                         <p className="text-sm mb-6">Introducing Kshavi, a revolutionary solution in the realm of wildlife management. Harnessing the power of IoT technology, Kshavi is meticulously designed to safeguard human-inhabited areas from the intrusion of herbivore wild animals. </p>
                         <p className="text-sm mb-6">Through cutting-edge cameras and sophisticated algorithms, Kshavi detects, tracks, and effectively deters wildlife using a combination of ultrasonic and infrasonic frequencies, coupled with strategic flashlight deployment. With Kshavi, Vanadootha pioneers a new era of coexistence, where humans and wildlife thrive harmoniously, ensuring peace of mind for communities while preserving the natural world.</p>
-                        <Link href = "#contact-us" onClick={handleCloseModal} className='bg-white text-black px-5 py-2 font-bold rounded-full'>Contact Us</Link>
+                        <Link href = "#contact-us" onClick={handleCloseModal} className='text-md bg-white text-black px-5 py-2 font-bold rounded-full'>Contact Us</Link>
                         <button onClick={handleCloseModal} className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 focus:outline-none">
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
