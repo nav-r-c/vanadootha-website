@@ -12,7 +12,7 @@ function Features() {
         <div className='bg-primary-3 text-center p-5 md:p-10 lg:p-20'>
             <div className='w-[80%] mx-auto'>
                 <h2 className="font-bold text-2xl text-accent-4 my-5">Key Features</h2>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-5 gap-5 my-10'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10'>
                     <FeatureCard image={Feature1} heading='Autonomous' desc ="No human interference required for the functioning" />
                     <FeatureCard image={Feature2} heading='3 lines Of Defense' desc ="A combination of acoustics, flashlights & a mobile application" />
                     <FeatureCard image={Feature3} heading='Non Intrusive' desc ="Does not disturb humans in any ways while functioning" />

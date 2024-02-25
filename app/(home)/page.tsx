@@ -15,7 +15,7 @@ import Head from "next/head";
 
 export const metadata : Metadata = {
     title : "Vanadootha | The smarter way to defend your farmland",
-    description : "“Vanadootha” translates to, “Messenger of the Forest” in the ancient Sanskrit language. All products developed by Vanadootha, will act as a bridge between the wilderness and humanity. It will avoid all the conflicts and clashes between the two sides and will ensure that peace and co-existence thrives, avoiding Eco-Apartheid, leading to an eternal friendship between human beings and the wild. The smarter way to defend your farmland. With our smart & autonomous product, you don't have to worry about guarding your fields all night!",
+    description : "Vanadootha - The Messenger of the Forest is an organization committed to resolving human-animal conflicts and supporting the farming community's needs. Founded by passionate individuals dedicated to restoring peaceful coexistence between humans and nature, Vanadootha is focused on its flagship product, Kshavi—an autonomous farmland defense system designed to deter wild animals from encroaching on farmlands near jungles. With two MVPs already deployed, Vanadootha is poised to launch Kshavi in the market soon. In addition to addressing human-animal conflicts, Vanadootha recognizes the vital role of the farming community in India's economy, contributing nearly 20% to its overall GDP.",
     metadataBase : new URL("https://www.vanadootha.com")
 }
 
@@ -25,6 +25,7 @@ export default function Page() {
             <Head>
                 <title>Vanadootha | The smarter way to defend your farmland</title>
                 <meta title = "description" content="Vanadootha” translates to, “Messenger of the Forest” in the ancient Sanskrit language. All products developed by Vanadootha, will act as a bridge between the wilderness and humanity. It will avoid all the conflicts and clashes between the two sides and will ensure that peace and co-existence thrives, avoiding Eco-Apartheid, leading to an eternal friendship between human beings and the wild. The smarter way to defend your farmland. With our smart & autonomous product, you don't have to worry about guarding your fields all night!" />
+                <meta title = "keywords" content = "Vanadootha, Messenger of the Forest, Human-animal conflicts, Farmland defense system, Autonomous deterrent, Kshavi, Wildlife deterrence, Jungle encroachment, Farming community support, India's economy, GDP contribution, Wildlife management, Peaceful coexistence, Conservation technology, Sustainable farming" />
             </Head>
             <div>
                 <Header />
