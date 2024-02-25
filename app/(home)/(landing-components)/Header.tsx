@@ -21,8 +21,8 @@ export default function Header() {
                     whileInView={{ opacity : 1, x : 0 }}
                     viewport={{once : true}}
                 >
-                    <h1 className="text-6xl font-bold tracking-wider leading-none">{"The Smarter Way To Defend Your Farmland."}</h1>
-                    <p className="text-2xl my-10 text-secondary-2">{"With our smart & autonomous product, you don't have to worry about guarding your fields all night!"}</p>
+                    <h1 className="text-4xl md:text-6xl font-bold tracking-wider leading-none">{"The Smarter Way To Defend Your Farmland."}</h1>
+                    <p className="text-xl md:text-2xl my-10 text-secondary-2">{"With our smart & autonomous product, you don't have to worry about guarding your fields all night!"}</p>
                     <Link href = '#contact-us' className="font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110">{"Contact Us"}</Link>
                 </motion.div>
             </div>

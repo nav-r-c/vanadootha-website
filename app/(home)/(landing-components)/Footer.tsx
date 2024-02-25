@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import WhiteLogo from "@/public/landing-page/VanadoothaFooter.png"
+import WhiteLogo from "@/public/landing-page/Vanadootha Logo for footer.svg"
 
 import Youtube from "@/public/landing-page/Youtube.svg"
 import LinkedIn from "@/public/landing-page/Linkedin.svg"
@@ -14,7 +14,7 @@ function Footer() {
         <div className='p-5 md:p-10 lg:p-20 bg-secondary-5 text-white text-center md:text-left'>
             <div className='w-[80%] mx-auto'>
                 <div className='flex lg:flex-row flex-col justify-between gap-10 items-center'>
-                    <div id = "contact-us" className='lg:w-[30%]'>
+                    <div id = "contact-us" className='lg:w-[40%]'>
                         <form>
                             <h1 className='font-bold text-2xl my-5'>Contact Us</h1>
                             <input placeholder='Your Name' type = "text" className='bg-input-box rounded-md w-[100%] my-2 outline-none p-2 placeholder-input-text border-2 border-input-text' />
@@ -24,11 +24,11 @@ function Footer() {
                             <button type = "submit" className='bg-white text-black my-5 rounded-full py-2 px-5 font-bold'>Contact Us</button>
                         </form>
                     </div>
-                    <div className='flex md:flex-row flex-col justify-between lg:justify-center gap-5 items-center'>
+                    <div className='flex md:flex-row flex-col justify-between lg:justify-center gap-5 items-center lg:w-[60%]'>
                         <div>
                             <div className='text-sm md:text-md lg:text-lg'>
                                 <h1 className='text-white'>Vanadootha Pvt Ltd</h1>
-                                <p className='text-footer-text my-2'>#3, Jyothi Nivasa, St.Michel&apos;s school road <br></br>Gangammagudi layout, Jalahalli, Bengaluru, <br></br>Karnataka - 560013.</p>
+                                <p className='text-footer-text my-2'>#3, Jyothi Nivasa, St.Michel&apos;s school road Gangammagudi layout, Jalahalli, Bengaluru, Karnataka - 560013.</p>
                                 <p className='text-footer-text my-2'>Ph: +91-8310534603</p>
                             </div>
                             <div className='my-5'>
@@ -47,7 +47,9 @@ function Footer() {
                             </div>
                         </div>
                         <div>
-                            <Image src = {WhiteLogo} alt = "Vanadootha White Logo" width={250} height={250} />
+                            <Image src = {WhiteLogo} alt = "Vanadootha White Logo" width={500} height={500} className='hidden lg:block' />
+                            <Image src = {WhiteLogo} alt = "Vanadootha White Logo" width={350} height={350} className='hidden md:block lg:hidden' />
+                            <Image src = {WhiteLogo} alt = "Vanadootha White Logo" width={200} height={200} className='block md:hidden' />
                         </div>
                     </div>
                 </div>

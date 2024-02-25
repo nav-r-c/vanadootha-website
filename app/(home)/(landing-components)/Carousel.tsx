@@ -3,6 +3,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow, Autoplay } from "swiper/modules";
 
+import { CiCircleChevLeft, CiCircleChevRight } from "react-icons/ci";
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -19,8 +21,6 @@ import Carousel2Mobile from "@/public/landing-page/conflict-2-phone.jpg"
 import Carousel3Mobile from "@/public/landing-page/conflict-3-phone.jpg"
 import Carousel4Mobile from "@/public/landing-page/conflict-4-phone.jpg"
 
-import LeftArr from "@/public/landing-page/left-arr.svg"
-import RightArr from "@/public/landing-page/right-arr.svg"
 
 export default function Carousel() {
     
@@ -66,11 +66,11 @@ export default function Carousel() {
             </SwiperSlide>
         </Swiper>
         <div>
-            <button className="swiper-prev-el border-2 rounded-full m-5 p-5 shadow-sm">
-                <Image src = {LeftArr} alt = "Left Arrow" width={10} height={10} />
+            <button className="swiper-prev-el m-5">
+                <CiCircleChevLeft className = "text-accent-1 text-5xl" />
             </button>
-            <button className="swiper-next-el border-2 rounded-full m-5 p-5 shadow-sm">
-                <Image src = {RightArr} alt = "Left Arrow" width={10} height={10} />
+            <button className="swiper-next-el m-5">
+                <CiCircleChevRight className = "text-accent-1 text-5xl" />
             </button>
         </div>
         </>

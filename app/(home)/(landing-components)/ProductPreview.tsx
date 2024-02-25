@@ -14,18 +14,9 @@ import ProductPreview1 from "@/public/landing-page/product-main.png";
 
 function ProductPreview(): JSX.Element {
     const [selectedImage, setSelectedImage] = useState(ProductMain);
-    const [showModal, setShowModal] = useState(false);
 
     const handleImageClick = (image: StaticImageData) => {
         setSelectedImage(image);
-    };
-
-    const openModal = () => {
-        setShowModal(true);
-    };
-
-    const closeModal = () => {
-        setShowModal(false);
     };
 
     return (
@@ -44,18 +35,13 @@ function ProductPreview(): JSX.Element {
                     <h1 className='font-bold my-5 text-xl md:text-2xl'>{"Meet farmer’s First line of Defense"}</h1>
                     <p className='hidden lg:block my-5 text-sm lg:text-md'>Introducing Kshavi, a revolutionary solution in the realm of wildlife management. Harnessing the power of IoT technology, Kshavi is meticulously designed to safeguard human-inhabited areas from the intrusion of herbivore wild animals. </p>
                     <p className='hidden lg:block my-10 text-sm lg:text-md'>Through cutting-edge cameras and sophisticated algorithms, Kshavi detects, tracks, and effectively deters wildlife using a combination of ultrasonic and infrasonic frequencies, coupled with strategic flashlight deployment. With Kshavi, Vanadootha pioneers a new era of coexistence, where humans and wildlife thrive harmoniously, ensuring peace of mind for communities while preserving the natural world.</p>
-                    <Link href='#contact-us' className="font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110">Contact Us</Link>
+                    <div className='flex justify-center lg:justify-start items-center gap-5'>
+                        <Link href='#contact-us' className="font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110">Contact Us</Link>
+                        <button className='rounded-full py-2 px-5 border-2 border-white block lg:hidden'>Read More</button>
+                    </div>
+                
                 </div>
             </div>
-            {showModal && (
-                <div className="fixed top-0 left-0 w-full h-full bg-gray-500 bg-opacity-75 flex justify-center items-center">
-                    <div className="bg-white p-8 rounded-md">
-                        <h2 className="text-xl font-bold mb-4">Modal Content</h2>
-                        <p className="mb-4">This is the content of the modal. You can put any content you want here.</p>
-                        <button onClick={closeModal} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-md">Close Modal</button>
-                    </div>
-                </div>
-            )}
         </>
     )
 }

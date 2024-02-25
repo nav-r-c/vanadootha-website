@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/landing-page/VanadoothaNavbar.svg";
 
 export default function Navbar() {
 
