@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { StaticImageData } from 'next/image';
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 import ProductMain from "@/public/landing-page/product-main.png";
 import ProductPreview2 from "@/public/landing-page/product-preview-1.png";
@@ -30,7 +31,7 @@ function ProductPreview(): JSX.Element {
 
     return (
         <>
-            <div className='flex lg:flex-row flex-col justify-between items-top gap-5'>
+            <div className='flex lg:flex-row flex-col justify-between items-top gap-10'>
                 <div>
                     <Image src={selectedImage} width={600} height={600} className='h-[20%] lg:h-[100%] border-2 border-[#505050] rounded-md' alt='Kshavi 2.0' />
                 </div>
@@ -46,7 +47,7 @@ function ProductPreview(): JSX.Element {
                     <p className='hidden lg:block my-10 text-sm lg:text-md'>Through cutting-edge cameras and sophisticated algorithms, Kshavi detects, tracks, and effectively deters wildlife using a combination of ultrasonic and infrasonic frequencies, coupled with strategic flashlight deployment. With Kshavi, Vanadootha pioneers a new era of coexistence, where humans and wildlife thrive harmoniously, ensuring peace of mind for communities while preserving the natural world.</p>
                     <div className='flex justify-center lg:justify-start items-center gap-5'>
                         <Link href = "#contact-us" className='text-md hidden lg:block bg-white text-black px-5 py-2 font-bold rounded-full'>Contact Us</Link>
-                        <button onClick={handleReadMoreClick} className='lg:hidden font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110'>Read More</button>
+                        <button onClick={handleReadMoreClick} className='lg:hidden font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110 flex justify-center items-center'>{"Read More "}<span><MdKeyboardDoubleArrowDown className = "text-xl" /></span></button>
                     </div>
                 </div>
             </div>
