@@ -3,9 +3,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-
-import { StaticImageData } from 'next/image';
+import { motion, AnimatePresence } from "framer-motion";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+import { StaticImageData } from 'next/image';
 
 import ProductMain from "@/public/landing-page/product-main.png";
 import ProductPreview2 from "@/public/landing-page/product-preview-1.png";
@@ -31,9 +31,24 @@ function ProductPreview(): JSX.Element {
 
     return (
         <>
-            <div className='flex lg:flex-row flex-col justify-between items-top gap-10'>
+            <motion.div 
+                className='flex lg:flex-row flex-col justify-between items-top gap-10'
+                initial = {{opacity : 0}}
+                whileInView={{opacity : 1}}
+                viewport={{ once : true, margin : "-40px" }}
+            >
                 <div>
-                    <Image src={selectedImage} width={600} height={600} className='h-[20%] lg:h-[100%] border-2 border-[#505050] rounded-md' alt='Kshavi 2.0' />
+                    <AnimatePresence mode = "wait">
+                        <motion.div 
+                            key={selectedImage.src} 
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.2 }}
+                        >
+                            <Image src={selectedImage} width={600} height={600} className='h-[20%] lg:h-[100%] border-2 border-[#505050] rounded-md' alt='Kshavi 2.0' />
+                        </motion.div>
+                    </AnimatePresence>
                 </div>
                 <div className="flex lg:flex-col lg:absolute justify-center gap-2 mt-2 lg:mt-0">
                     <MiniImagePreview src={ProductPreview1} onClick={() => handleImageClick(ProductPreview1)} />
@@ -47,10 +62,13 @@ function ProductPreview(): JSX.Element {
                     <p className='hidden lg:block my-10 text-sm lg:text-md'>Through cutting-edge cameras and sophisticated algorithms, Kshavi detects, tracks, and effectively deters wildlife using a combination of ultrasonic and infrasonic frequencies, coupled with strategic flashlight deployment. With Kshavi, Vanadootha pioneers a new era of coexistence, where humans and wildlife thrive harmoniously, ensuring peace of mind for communities while preserving the natural world.</p>
                     <div className='flex justify-center lg:justify-start items-center gap-5'>
                         <Link href = "#contact-us" className='text-md hidden lg:block bg-white text-black px-5 py-2 font-bold rounded-full'>Contact Us</Link>
-                        <button onClick={handleReadMoreClick} className='lg:hidden font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110 flex justify-center items-center'>{"Read More "}<span><MdKeyboardDoubleArrowDown className = "text-xl" /></span></button>
+                        <button onClick={handleReadMoreClick} className='lg:hidden font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110 flex justify-center items-center'>
+                            <span>Read More</span>
+                            <MdKeyboardDoubleArrowDown className = "text-xl" />
+                        </button>
                     </div>
                 </div>
-            </div>
+            </motion.div>
             {showModal && (
                 <div className="fixed top-0 left-0 w-full h-full bg-secondary-5 bg-opacity-50 flex justify-center items-center z-50 backdrop-blur-md">
                     <Modal onClose={handleCloseModal}>

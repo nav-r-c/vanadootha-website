@@ -1,8 +1,12 @@
+'use client'
+
 import React from 'react'
 import Image from 'next/image'
 import CoreImage from '@/public/landing-page/core-1.png'
 import { Figtree } from 'next/font/google'
 import { StaticImport } from 'next/dist/shared/lib/get-img-props'
+
+import { motion } from 'framer-motion'
 
 const figtree = Figtree({subsets: ['latin']})
 
@@ -15,13 +19,17 @@ interface PropTypes {
 function CoreCard(props : PropTypes) {
     return (
         <>
-        <div>
+        <motion.div
+            initial = {{opacity : 0, y : 30}}
+            whileInView={{opacity : 1, y : 0}}
+            viewport={{ once : true, margin : "-20px" }}
+        >
             <div className='flex flex-col justify-center items-center'>
                 <Image src = {props.image} width={150} height={150} alt = "Core Belief" />
                 <h1 className='font-bold text-accent-4 my-2 lg:my-5 text-md md:text-lg'>{props.heading}</h1>
                 <p className={`text-secondary-4 text-sm lg:text-md lg:w-[80%] ${figtree.className}`}>{props.desc}</p>
             </div>
-        </div>
+        </motion.div>
         </>
     )
 }
