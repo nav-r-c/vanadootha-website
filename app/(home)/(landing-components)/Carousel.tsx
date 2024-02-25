@@ -45,8 +45,6 @@ export default function Carousel() {
             }}
             autoplay={true}
             loop = {true}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
         >
             <SwiperSlide>
                 <Image src = {Carousel1} width={500} height={500} alt = "Carousel Item" className="hidden md:block" />
