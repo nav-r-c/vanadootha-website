@@ -28,19 +28,42 @@ export default function Page() {
             <div>
                 <Header />
 
-                <div>
-                    <Conflict />
-                    <Stats />
-                    <LandingAbout />
-                    <CoreBeliefs />
-                    <div id = "product">
+                <section>
+                    <section id = 'conflict-carousel' aria-label="Examples of human wildlife conflict">
+                        <Conflict />
+                    </section>
+
+                    <section id = 'statistics' aria-label="Statistics of Human Wildlife Conflict">
+                        <Stats />
+                    </section>
+
+                    <section id = "about-us" aria-label="About Vanadootha">
+                        <LandingAbout />
+                    </section>
+
+                    <section id = "Core-Beliefs" aria-label="The Core beliefs of Vanadootha">
+                        <CoreBeliefs />
+                    </section>
+                    <section id = "product" aria-label="The KShavi 2.0">
                         <Product />
-                    </div>
-                    <Features />
-                    <AnimalSection />
-                    <VideoSection />
-                    <Sponsors />
-                </div> 
+                    </section>
+
+                    <section id = "features" aria-label="Features of Vanadootha">
+                        <Features />
+                    </section>
+
+                    <section id = "animals" aria-label="The Animals targeted by Vanadootha">
+                        <AnimalSection />
+                    </section>
+
+                    <section id = "video" aria-label="The Journey of Vanadootha">
+                        <VideoSection />
+                    </section>
+
+                    <section id = "support" aria-label="Organizations that support Vanadootha">
+                        <Sponsors />
+                    </section>
+                </section> 
             </div>
         </>
     )
