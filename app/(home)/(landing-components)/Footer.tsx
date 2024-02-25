@@ -56,8 +56,8 @@ function Footer() {
                 <div className='flex lg:flex-row flex-col justify-between gap-10 items-center'>
                     <div id = "contact-us" className='lg:w-[40%]'>
                         {loading ? 
-                        <div>
-                            <Spinner size = {'md'} />
+                        <div className='flex flex-col justify-center items-center'>
+                            <Spinner className='text-accent-1' size = {'md'} />
                             <p className='text-white my-2'>Submitting Form...</p>
                         </div>
                         :
