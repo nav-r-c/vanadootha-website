@@ -29,7 +29,7 @@ function LandingAbout() {
                         viewport={{once : true, margin : "-50px"}}
                     >
                         <h2 className='font-bold my-2 text-accent-4 text-lg md:text-xl lg:text-2xl'>Your Messenger of the Forest</h2>
-                        <p className={`${figtree.className} text-secondary-4 text-sm md:text-md lg:text-lg my-2 text-center lg:text-justify`}>“Vanadootha” translates to, “Messenger of the Forest” in the ancient Sanskrit language. All products developed by Vanadootha, will act as a bridge between the wilderness and humanity. It will avoid all the conflicts and clashes between the two sides and will ensure that peace and co-existence thrives, avoiding Eco-Apartheid, leading to an eternal friendship between human beings and the wild.</p>
+                        <p className={`${figtree.className} text-pretty text-secondary-4 text-sm md:text-md lg:text-lg my-2 text-center lg:text-justify`}>“Vanadootha” translates to, “Messenger of the Forest” in the ancient Sanskrit language. All products developed by Vanadootha, will act as a bridge between the wilderness and humanity. It will avoid all the conflicts and clashes between the two sides and will ensure that peace and co-existence thrives, avoiding Eco-Apartheid, leading to an eternal friendship between human beings and the wild.</p>
                     </motion.div>
                     <motion.div
                         initial = {{

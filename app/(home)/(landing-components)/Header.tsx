@@ -14,7 +14,7 @@ export default function Header() {
     return (
         <>
         <div className="relative">
-            <div className="h-screen lg:w-[45%] absolute text-white h-screen flex flex-col justify-start pt-20 items-center text-center lg:text-left">
+            <div className="lg:w-[50%] absolute text-white h-screen flex flex-col justify-start pt-20 items-center text-center lg:text-left">
                 <motion.div 
                     className="w-[70%]"
                     initial = {{ opacity : 0, x : -5 }}
@@ -22,7 +22,7 @@ export default function Header() {
                     viewport={{once : true}}
                 >
                     <h1 className="text-4xl md:text-6xl font-bold tracking-wider leading-none">{"The Smarter Way To Defend Your Farmland."}</h1>
-                    <p className="text-xl lg:text-2xl my-10 text-secondary-2">{"With our smart & autonomous product, you don't have to worry about guarding your fields all night!"}</p>
+                    <p className="text-pretty text-md md:text-xl my-10 text-secondary-2">{"With our smart & autonomous product, you don't have to worry about guarding your fields all night!"}</p>
                     <Link href = '#contact-us' className="font-bold bg-primary-2 rounded-full p-2 px-5 text-black text-lg transition-all ease-in-out hover:scale-110">{"Contact Us"}</Link>
                 </motion.div>
             </div>

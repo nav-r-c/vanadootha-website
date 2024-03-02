@@ -9,7 +9,7 @@ function Product() {
                 <div>
                     <h2 className='font-bold text-center text-4xl'>Kshavi 2.0</h2>
                 </div>
-                <div className='my-10'>
+                <div className='my-5 md:my-10'>
                     <ProductPreview />
                 </div>
             </div>

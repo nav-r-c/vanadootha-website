@@ -30,7 +30,7 @@ function FeatureCard(props : PropTypes) {
             </div>
             <div>
                 <h2 className='text-accent-4 font-bold text-lg my-2'>{props.heading}</h2>
-                <p className={`text-[0.75em] text-secondary-5 ${inter.className}`}>{props.desc}</p>
+                <p className={`text-pretty text-[0.75em] text-secondary-5 ${inter.className}`}>{props.desc}</p>
             </div>
         </motion.div>
         </>

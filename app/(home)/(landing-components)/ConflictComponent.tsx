@@ -9,7 +9,8 @@ export default function Conflict() {
     return (
         <>
         <div className="p-10 text-center ">
-            <h2 className="font-bold text-lg lg:text-2xl">Human-wildlife conflict, a tale as old as time.</h2>
+            <h2 className="hidden lg:block font-bold text-lg lg:text-2xl">Human-wildlife conflict, a tale as old as time.</h2>
+            <h2 className="block lg:hidden font-bold text-lg lg:text-2xl">Human-wildlife conflict,<br></br> a tale as old as time.</h2>
             <motion.div 
                 className="mt-10"
                 initial = {{

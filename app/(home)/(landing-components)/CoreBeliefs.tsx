@@ -15,7 +15,7 @@ function CoreBeliefs() {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10'>
                     <CoreCard image={Mission} heading='Mission' desc='To prevent fatalities occurring due to the human - animal conflicts across India due to the wild animal invasions, by developing tangible, artificially intelligent solutions.' />
                     <CoreCard image={Vision} heading='Vision' desc='To make the world a safe, healthy and a coexisting habitat for both humans and animals; creating harmony in nature.' />
-                    <CoreCard image={Values} heading='Values' desc='Curiosity, Sustainability, Innovation, Responsibility, Creativity' />
+                    <CoreCard image={Values} heading='Values' desc='Curiosity, Sustainability, Innovation, Responsibility & Creativity' />
                     <CoreCard image={Spark} heading='Spark' desc='The fatalities of wild animals and the plight of farmers in India, was our spark to work on this problem.' />
                 </div>
             </div>

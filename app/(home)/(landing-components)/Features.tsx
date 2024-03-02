@@ -14,7 +14,7 @@ function Features() {
                 <h2 className="font-bold text-2xl text-accent-4 my-5">Key Features</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10'>
                     <FeatureCard image={Feature1} heading='Autonomous' desc ="No human interference required for the functioning" />
-                    <FeatureCard image={Feature2} heading='3 lines Of Defense' desc ="A combination of acoustics, flashlights & a mobile application" />
+                    <FeatureCard image={Feature2} heading='3 lines Of Defense' desc ="A strong combination of acoustics, flashlights & a mobile application" />
                     <FeatureCard image={Feature3} heading='Non Intrusive' desc ="Does not disturb humans in any ways while functioning" />
                     <FeatureCard image={Feature4} heading='No Direct Contact' desc ="No physical contact shall be made in the defense process" />
                 </div>

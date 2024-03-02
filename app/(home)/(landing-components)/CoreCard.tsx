@@ -27,7 +27,9 @@ function CoreCard(props : PropTypes) {
             <div className='flex flex-col justify-center items-center'>
                 <Image src = {props.image} width={150} height={150} alt = "Core Belief" />
                 <h3 className='font-bold text-accent-4 my-2 lg:my-5 text-md md:text-lg'>{props.heading}</h3>
-                <p className={`text-secondary-4 text-sm lg:text-md lg:w-[80%] ${figtree.className}`}>{props.desc}</p>
+                <p className={`text-secondary-4 text-sm w-[90%] lg:w-[80%] ${figtree.className}`}>
+                    <span className='text-pretty'>{props.desc}</span>
+                </p>
             </div>
         </motion.div>
         </>

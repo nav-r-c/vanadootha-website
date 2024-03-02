@@ -11,7 +11,7 @@ function AnimalSection() {
         <>
         <div className='p-5 md:p-10 lg:p-20 text-center'>
             <div className='w-[80%] mx-auto'>
-                <h2 className="font-bold text-lg md:text-2xl text-accent-4 my-5">The Animals targeted by Vanadootha</h2>
+                <h2 className="font-bold text-lg md:text-2xl text-accent-4 my-5">The Animals <br></br>targeted by Vanadootha</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-10'>
                     <AnimalCard image={Elephant} caption='Elephant' />
                     <AnimalCard image={Boar} caption='Wild Boar' />
